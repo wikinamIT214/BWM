@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIn tức</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">>
+</head>
+<body>
+    <div id="wrapper" class="container-fluid">
+        <header >
+            <div class="row row-header" style="background-color: rgb(28, 202, 202);">
+                <div class="col-md-3 logo">
+                        <a href="index.html" ><img src="images/Logolaptop-removebg-preview.png" alt="" style="max-width:100%;"></a>
+                 </div>
+                <div class="col-9 col-md-9 col-10 menu">
+                    <ul class="main-menu ">
+                        <li ><a href="index.html" class="ready" >LapTop Mới<i class="bi bi-caret-down-fill"></i></a></li>
+                        <li><a href="OldLaptop.html">LapTop Cũ</a></li>
+                        <li><a href="laptop-components.html">Linh kiện laptop</a></li>
+                        <li class="change"><a href="news.html">Tin Tức</a></li>
+                        <li><a href="km.html">Khuyến Mãi</a></li>
+                    </ul>
+                    <div class="row search_contact">
+                        <div class="col-md-8 col-sm-10 col-9 search">
+                                <input type="text" placeholder="Tìm kiếm trên đây">
+                                <button><img src="images/logo-search-removebg-preview (1).png" alt="" width="20px">
+                                </button>
+                        </div>
+                        <div class="col-md-4 col-sm-2 col-3 contact-product">
+                            <div class="logo-phone">
+                                <img src="images/icon_Phone1.png" alt="" width="40px">
+                            </div>
+                            <div class="phone-contact">
+                                <span>Gọi đặt hàng: <br><p>0326.460.194</p></span>
+                            </div>
+                            <div class="cart-product">
+                                <img src="images/icon_cart-2-removebg-preview.png" alt="" width="35px">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-header_mobile">
+                <div class="col-4 logo_mobile">
+                    <img src="images/Logolaptop-removebg-preview.png" alt="" style="width:180px;margin-left: 10px;"></div>
+                <div class="col-8">
+                    <label for="nav_mobile-input" id="tonggle" >
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="row row-search_mobile">
+                <div class="col-9 search_mobile">
+                    <input type="text" placeholder="Tìm kiếm trên đây">
+                    <button><img src="images/logo-search-removebg-preview (1).png" alt="" width="20px"></button>
+                </div> 
+                <div class="col-2 cart_mobile">
+                    <a href=""><img src="images/icon_cart-2-removebg-preview.png" alt="" width="35px"></a>
+                </div>
+            </div>
+            <input type="checkbox" name=""  class="nav-input" id="nav_mobile-input" hidden>
+            <label for="nav_mobile-input" class="nav_overlay"></label>
+            <div  class="nav_mobile">
+                <div class="headline-nav_mobile"><p>Menu Chính</p></div>
+                <ul class="main-menu_mobile">
+                    <li><a href="index.html"> <img src="images/icon-laptop-new.png" alt="" width="18px"> LapTop Mới</a></li>
+                    <li><a href="OldLaptop.html"> <img src="images/icon-laptop-used.png" alt="" width="18px"> LapTop Cũ</a></li>
+                    <li><a href="laptop-components.html"> <img src="images/icon-phụkien.png" alt="" width="18px">LK laptop</a></li>
+                    <li><a href="news.html"> <img src="images/news-icon.png" alt="" width="18px"> Tin Tức</a></li>
+                    <li><a href="km.html"> <img src="images/icon-promotion-removebg-preview.png" alt="" width="35px"> Khuyến Mãi</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="news">
+            <h1>Tin tức mới laptop.com</h1>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/xem-tivi-truc-tuyen-5-380x300.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Top 5 ứng dụng xem tivi trực tuyến trên điện thoại phổ biến nhất</h2>
+                           <div>Với cuộc sống hiện đại ngày nay, việc sử dụng điện thoại để xem tivi…</div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/cách xử lí lỗi hiển thi your-windows-license-will-expire-soon.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Hướng dẫn xử lí lỗi hiển thị You your-windows-license-will-expire-soon</h2>
+                           <div>Lỗi hiển thị You window license…</div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/tat-thong-bao-sinh-nhat-tren-zal.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Hướng dẫn cách tắt thông báo trên Zalo</h2>
+                           <div>Cũng như Facebook bạn cần đăng ký ngày sinh…</div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/cach-doi-ten-tren-google-meet-13.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Cách đổi tên trên google meet</h2>
+                           <div>Xu hướng hiện nay là học và làm việc từ xa thì google meet là một ứng dụng được thịnh hành nhất…</div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/cach-tai-play-together-tren-may.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Hướng dẫn cài đặt play together trên máy tính</h2>
+                           <div>Ứng dụng game play together là một trong số ứng dụng thịnh hành nhất hiện nay…</div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-12 news-item">
+                    <div class="news-thumb">
+                        <img src="images/xem-tivi-truc-tuyen-5-380x300.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <div><p>Tin tức laptop.com</p></div>
+                           <h2>Top 5 ứng dụng xem tivi trực tuyến trên điện thoại phổ biến nhất</h2>
+                           <div>Với cuộc sống hiện đại ngày nay, việc sử dụng điện thoại để xem tivi…</div>
+                    </div>
+                </div>
+            </div>
+            <div class="xemthem">
+                <p>Xem thêm <i class="fa-solid fa-angle-down"></i></p>
+            </div>
+            <div class="footer">
+                <div class="row main-footer">
+                    <div class="col-md-3 col-xm-12 col-xs-12 main-footer-item">
+                        <div class="footer-up">
+                            <h3>Chính Sách</h3>
+                        </div>
+                        <hr>
+                        <div class="footer-down">
+                            <ul class="menu-footer-down">
+                                <li><a href="">Chính sách bảo mật</a></li>
+                                <li><a href="">Chính sách vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi tra</a></li>
+                                <li><a href="">Hướng dẫn thanh toán</a></li>
+                                <li><a href="">Tìm hiểu về chúng tôi</a></li>
+                                <li><a href="">Tin tức về LapTop.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xm-12 col-xs-12">
+                        <div class="footer-up">
+                            <h3>Hình thức thanh toán</h3>
+                        </div>
+                        <hr>
+                        <div class="footer-down">
+                            <ul class="menu-footer-down">
+                                <li><a href=""><img src="images/icon-tienmat.png" alt="" >Tiền mặt</a></li>
+                                <li><a href=""><img src="images/icon-chuyenkhoan.png" alt=""> Chuyển Khoản</a></li>
+                                <li><a href=""> <img src="images/icon-internetbanking.png" alt=""> Intermet Banking</a></li>
+                                <li><a href=""><img src="images/icon-theatm.png" alt="">  Quẹt thẻ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-up">
+                            <h3>WEBSITE thuộc hệ thống</h3>
+                        </div>
+                        <div class="footer-down">
+                            <ul class="menu-footer-down">
+                                <li><a href=""><img src="images/Logolaptop-removebg-preview.png" alt="" width="150px"></a></li>
+                                <li><a href=""><img src="images/Bộ_công_thương_chứng_nhận-removebg-preview.png" alt="" width="150px"></a></li>
+                                <li><a href="">Số Giấy Phép ĐKKD / MST:32B8016080-</a></li>
+                                <li><a href="">DO Sở Kế Hoạch Đầu tư ĐÀ Nẵng đã cấp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xm-12 col-xs-12">
+                        <div class="footer-up">
+                            <h3>Facebook</h3>
+                        </div>
+                        <hr>
+                        <div class="footer-down-2">
+                            <ul class="menu-footer-down-2">
+                                <li><a href="">Hộ Kinh doanh laptop.com</a></li>
+                                <li><a href="">220 Trần Đại Nghĩa,Ngũ Hành Sơn,Đà Nẵng</a></li>
+                                <li><a href="">SDT:0333.206.8888</a></li>
+                                <li><a href="">Email:Laptop@gmail.com</a></li>
+                                <li><a href="">Website:Laptop.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xm-12 col-xs-12">
+                        <div class="footer-up">
+                            <h3>Liên Hệ</h3>
+                        </div>
+                        <hr>
+                        <div class="footer-down-2">
+                            <ul class="menu-footer-down-2">
+                                <li><a href="">09.111.22.999(Gọi ngay)</a></li>
+                                <li><a href="">08.8888.678(Góp ý)</a></li>
+                                <li><a href="">K19 Hòa Hải,Đà Nẵng</a></li>
+                                <li><a href="">135 Hàm Nghi Đà Nẵng</a></li>
+                                <li><a href="">101 Thanh Khê,Đà Nẵng</a></li>
+                                <li><a href="">cskc.laptop@gmail.com</a></li>
+                                <li><a href="">Thứ 2-Chủ nhật/8h00-21h30</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
