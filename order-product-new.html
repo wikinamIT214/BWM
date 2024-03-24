@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style_products-detail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <title>Laptop.com</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper_main-header">
+            <div class="main-header">
+                <div class="header-center">
+                    <div class="row header-row">
+                        <div class="col-lg-2 col-md-3 col-sm-12 logo-tonggel">
+                            <label for="nav_mobile-input" id="tonggel-1"><i class="fa-solid fa-bars"></i></label>
+                            <input type="checkbox" name=""  class="nav-input" id="nav_mobile-input" hidden>
+                            <label for="nav_mobile-input" class="nav_overlay"></label>
+                            <div  class="nav_mobile">
+                                <div class="headline-nav_mobile"><p>Menu Chính</p></div>
+                                <ul class="main-menu_mobile">
+                                    <li><a href="index.html"> <img src="images/icon-laptop-new.png" alt="" width="18px"> LapTop Mới</a></li>
+                                    <li><a href="OldLaptop.html"> <img src="images/icon-laptop-used.png" alt="" width="18px"> LapTop Cũ</a></li>
+                                    <li><a href="laptop-components.html"> <img src="images/icon-phụkien.png" alt="" width="18px"> LK Laptop</a></li>
+                                    <li><a href="news.html"> <img src="images/news-icon.png" alt="" width="18px"> Tin Tức</a></li>
+                                    <li class><a href="km.html"> <img src="images/icon-promotion-removebg-preview.png" alt="" width="35px"> Khuyến Mãi</a></li>
+                                </ul>
+                            </div>
+                            <div class="main-logo"><img src="images/Logolaptop-removebg-preview.png" alt=""></div>
+                            <label for="nav_mobile-input" id="tonggel-2"><i class="fa-solid fa-bars"></i></label>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-12 search-contact">
+                            <div class="main-search">
+                                <input type="text" placeholder="Tìm kiếm tại đây">
+                                <button type="button"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button>
+                            </div>
+                            <div class="main-contact">
+                                <span>Gọi đặt hàng: <br><strong>0326.460.194</strong></span>
+                                <div class="cart"><img src="images/icon_cart-2-removebg-preview.png" alt="" width="40px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper-instruction">
+        <div class="instruction">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-12 wrapper_product-inner">
+                    <p style="color:rgb(238, 63, 20);"><a href="index.html" style="text-decoration: none;">Trang chủ</a> <i class="fa-solid fa-angles-right"></i>  Mua hàng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()){
+                        $('header').addClass('sticky');
+                    }
+                    else{
+                        $('header').removeClass('sticky');
+                    }
+                });
+            });
+        </script>
+    <div class="container-fluid">
+        <h2 class="headline_h2">Mua Hàng</h2>
+        <div id="content">
+            <div class="row content-up">
+                <div class="col-md-12 col-sm-12 col-12">
+                    <table class="table2">
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Giá tiền</th>
+                            <th>Số lượng</th>
+                            <th>Tổng tiền</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left;"><img src="images/dell-g3-3590-i7-300x300.png" alt="" width="90px" height="90px"> Ổ cứng laptop SSD 128Gb/120Gb</td>
+                            <td>15.000.000đ</td>
+                            <td>1</td>
+                            <td>15.000.000đ</td>
+                        </tr>   
+                    </table>
+                </div>
+            </div>
+            <div class="content-down row">
+            <div class="form-info col-md-7">
+                <div class="wrapper__form-info">
+                    <h2>Thông tin thanh toán</h2>
+                    <label for="">Họ tên <i class="fa-solid fa-asterisk" style="color: red;"></i></label>
+                    <input type="text" placeholder="Nhập họ và tên">
+                    <label for="">Địa chỉ <i class="fa-solid fa-asterisk" style="color: red;"></i></label>
+                    <input type="text" placeholder="Nhập địa chỉ">
+                    <label for="">Số điện thoại <i class="fa-solid fa-asterisk" style="color: red;"></i></label>
+                    <input type="text" placeholder="Nhập số điện thoại">
+                    <label for="">Địa chỉ Email <i class="fa-solid fa-asterisk" style="color: red;"></i></label>
+                    <input type="text" placeholder="Nhập địa chỉ email">
+                    <label for="">Mã giãm giá</label>
+                    <input type="text" placeholder="Mã giảm giá" style="width:50%;">
+                    <button>Áp dụng</button>
+                    <div class="confirm">
+                        <input type="checkbox"><p>Đảm bảo thông tin trên bạn cung cấp là chính xác</p>
+                    </div>
+                    <label for="">Ghi chú đơn hàng(tùy chọn)</label>
+                    <textarea name="" id="" class="input-text" rows="2" cols="5" placeholder="Ghi chú về đơn hàng ví dụ như:thời gian,địa chỉ cụ thể...."></textarea>
+                </div>
+            </div>
+            <div class="wrapper__review-order col-md-5">
+                <h2>Đơn hàng của bạn</h2>
+                <div class="review-order">
+                    <table class="table3">
+                        <tr>
+                            <th style="text-transform:uppercase;">Sản phẩm</th>
+                            <th style="text-transform:uppercase;">Tạm tính</th>
+                        </tr>
+                        <tr>
+                            <td>Laptop Dell-G3-3590-i7</td>
+                            <td>15.000.000đ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tạm tính</strong></td>
+                            <td style="color: red;font-weight: 500;font-size: 19px;">15.000.000đ</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><strong>Giao hàng</strong> <p style="margin-left:10px;">0 đồng</p></td>
+                        </tr>
+                        <tr>
+                            <td><strong style="font-size: 21px;">Tổng tiền</strong></td>
+                            <td><strong style="font-size: 21px;color: red   ;">15.000.000đ</strong></td>
+                        </tr>
+                    </table>
+                    <div class="checkout-payment">
+                        <ul class="list__checkout-payment">
+                            <li>
+                                <input type="radio" id="show-text1" name="thanh_toán" value="tiền_mặt" checked class="input-show1">
+                                <label for="" >Thanh toán bằng tiền mặt</label>
+                                <label for="show-text1" class="item1">Trả tiền mặt khi giao hàng</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="show-text2" name="thanh_toán" value="chuyển_khoản" class="input-show2">
+                                <label for="">Thanh toán bằng chuyển khoản ngân hàng</label>
+                                <label for="show-text2" class="item2">Thực hiện thanh toán ngay vào ngân hàng của chúng tôi.Vui lòng sử dụng mã đơn hàng của bạn trong Nội dung thanh toán.Đơn hàng sẽ được giao ngay sau khi vận chuyển.</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="confirm-info">
+                    <input type="checkbox">
+                    <label for="">Tôi đã đọc và đồng ý với <a href="#">Điều khoản và điều kiện</a>của website đưa ra</label>
+                </div>
+                <button class="button__order">Đặt hàng</button>
+                <button type="button" class="button-back" onclick="quaylaimuahang()" >Quay lại mua hàng</button>
+            </div>
+            </div>
+            </div>
+            <script>
+                quaylaimuahang=function(){
+                    history.back();
+                }
+            </script>
+        </div>
+        <div class="footer">
+            <div class="row main-footer">
+                <div class="col-md-3 col-sm-12 col-12 main-footer-item">
+                    <div class="footer-up">
+                        <h3>Chính Sách</h3>
+                    </div>
+                    <hr>
+                    <div class="footer-down">
+                        <ul class="menu-footer-down">
+                            <li><a href="">Chính sách bảo mật</a></li>
+                            <li><a href="">Chính sách vận chuyển</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Chính sách đổi tra</a></li>
+                            <li><a href="">Hướng dẫn thanh toán</a></li>
+                            <li><a href="">Tìm hiểu về chúng tôi</a></li>
+                            <li><a href="">Tin tức về LapTop.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12 main-footer-item">
+                    <div class="footer-up">
+                        <h3>Facebook</h3>
+                    </div>
+                    <hr>
+                    <div class="footer-down-2">
+                        <ul class="menu-footer-down-2">
+                            <li><a href="">Hộ Kinh doanh laptop.com</a></li>
+                            <li><a href="">220 Trần Đại Nghĩa,Ngũ Hành Sơn,Đà Nẵng</a></li>
+                            <li><a href="">SDT:0333.206.8888</a></li>
+                            <li><a href="">Email:Laptop@gmail.com</a></li>
+                            <li><a href="">Website:Laptop.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12 main-footer-item">
+                    <div class="footer-up">
+                        <h3>Hình thức thanh toán</h3>
+                    </div>
+                    <hr>
+                    <div class="footer-down">
+                        <div class="row footer-down">
+                                <div class="col-md-6 col-6 footer-link"><a href=""><img src="images/icon-tienmat.png" alt="" >Tiền mặt</a></div>
+                                <div class="col-md-6 col-6 footer-link" ><a href="" style="display: flex;"><img src="images/icon-chuyenkhoan.png" alt=""> Chuyển Khoản</a></div>
+                                <div class="col-md-6 col-6 footer-link" ><a href="" style="display: flex;"> <img src="images/icon-internetbanking.png" alt=""> Intermet Banking</a></div>
+                                <div class="col-md-6 col-6 footer-link" ><a href=""><img src="images/icon-theatm.png" alt="">  Quẹt thẻ</a></div>
+                        </div>
+                    </div>
+                    <div class="footer-up">
+                        <h3>WEBSITE thuộc hệ thống</h3>
+                    </div>
+                    <div class="footer-down">
+                        <ul class="menu-footer-down">
+                            <li><a href=""><img src="images/Logolaptop-removebg-preview.png" alt="" width="150px"></a></li>
+                            <li><a href=""><img src="images/Bộ_công_thương_chứng_nhận-removebg-preview.png" alt="" width="150px"></a></li>
+                            <li  style="display:contents;"><a href="">Số Giấy Phép ĐKKD/MST:32B8016080</a></li>
+                            <li><a href="">DO Sở Kế Hoạch Đầu tư Đà Nẵng đã cấp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12 main-footer-item">
+                    <div class="footer-up">
+                        <h3>Liên Hệ</h3>
+                    </div>
+                    <hr>
+                    <div class="footer-down-2">
+                        <ul class="menu-footer-down-2">
+                            <li><a href="">09.111.22.999(Gọi ngay)</a></li>
+                            <li><a href="">08.8888.678(Góp ý)</a></li>
+                            <li><a href="">K19 Hòa Hải,Đà Nẵng</a></li>
+                            <li><a href="">135 Hàm Nghi Đà Nẵng</a></li>
+                            <li><a href="">101 Thanh Khê,Đà Nẵng</a></li>
+                            <li><a href="">cskc.laptop@gmail.com</a></li>
+                            <li><a href="">Thứ 2-Chủ nhật/8h00-21h30</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
